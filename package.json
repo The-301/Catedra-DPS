@@ -1,0 +1,37 @@
+{
+  "name": "appnotas",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "6.7.3",
+    "@react-native-google-signin/google-signin": "^10.1.1",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.7",
+    "expo": "~48.0.21",
+    "expo-status-bar": "~1.4.4",
+    "firebase": "^9.23.0",
+    "react": "18.2.0",
+    "react-native": "0.71.14",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "expo-splash-screen": "~0.18.2",
+    "expo-auth-session": "~4.0.3",
+    "expo-crypto": "~12.2.1",
+    "expo-web-browser": "~12.1.1",
+    "expo-application": "~5.1.1",
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "expo-dev-client": "~2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

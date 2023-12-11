@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "appnotas",
+    "slug": "appnotas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.the301.appnotas"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "googleSignIn": {
+          "webClientId": "470266815091-3856v8s1sl7curkmnkcg2ij923o4s6cn.apps.googleusercontent.coms"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55f3c7c8-7bc7-43a4-b7b1-5647cdb3dc09"
+      }
+    },
+    "scheme": "appnotas"
+  }
+}
